@@ -28,7 +28,7 @@ const styles = theme => ({
 });
 
 const Container = props => <Grid container {...props} />;
-const Item = props => <Grid item xs={12} sm={6} md={3} {...props} />;
+const Item = props => <Grid item xs={12} sm={6} md={3} {...props} />; 
 
 const App = withStyles(styles)(({ classes,justify }) => (
   <div className={classes.root}>
